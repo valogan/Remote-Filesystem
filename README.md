@@ -1,10 +1,10 @@
-Abstract
+Abstract:
 
 In this report I discuss the background of the project, what my server and client code are able to
 do, the project design and implementation, and the evaluation of the rate of bytes sent during the upload 
 and download of files.
 
-Introduction And Motivation
+Introduction And Motivation:
 
 The purpose of this project is to create a server that can be accessed by a client to store and
 manage files, similarly to a cloud server. This will be accomplished using sockets and threads in the
@@ -16,7 +16,7 @@ two parties. This will use the TCP protocol which is a connection-oriented, reli
 that a connection is set up for the communication, and then torn down after the communication is done,
 and it means that if there are errors in the communication the messages will be resent.
 
-Project Design and Implementation
+Project Design and Implementation:
 
 My software supports all of the essential commands specified in the specifications, plus the
 subfolders extension:
